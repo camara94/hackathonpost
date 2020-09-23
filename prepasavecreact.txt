@@ -1,0 +1,70 @@
+Premiers pas avec React
+
+Dans ce premier exercice React, vous allez d'abord installer nodejs, create-react-app, 
+l'outil de ligne de commande pour la création de modèles d'applications React. 
+Vous utiliserez ensuite l'outil pour générer une application React de base. 
+Nous développerons ensuite cette application en une application React à part 
+entière dans le processus de réalisation des exercices de ce cours. 
+À la fin de cet exercice, vous serez en mesure de:
+-Installer node.js;
+-Installer create-react-app;
+-Installer yarn;
+
+I-Installation NodeJS
+Vous trouverez tous les renseignement sur l'installation de node.js sur les differentes plateforme à
+travers ce lien ci-dessous:
+ <<https://nodejs.org/fr/>>
+
+II-Installation de yarn
+Yarn est un autre gestionnaire de packages comme NPM, mais il est mieux adapté et plus rapide à utiliser 
+pour les applications React. Alors, installons et utilisons-le pour créer nos applications React.
+Pour installer Yarn, vous pouvez trouver les instructions pour votre plate-forme spécifique 
+sur https://yarnpkg.com/en/docs/install.
+Si vous choisissez de ne pas installer Yarn, vous pouvez continuer à utiliser npm à la place sans 
+aucun problème.
+
+III-Installation de create-react-app
+
+Dans la documentation React, nous apprenons que la Commande Line Intterface(CLI) create-react-app facilite la 
+création d'une application qui fonctionne déjà, dès la sortie de la boîte. Il suit déjà les bonnes pratiques 
+suggérées par la communauté React!
+
+* Pour installer create-react-app globalement, tapez la commande suivante dans l'invite de commande:
+<< yarn global add create-react-app >> ou << npm install -g create-react-app >>
+pour les Utilisateur de Mac et Linux assurez-vous de précedez ces commande par sudo.
+
+* Cela rendra l'outil de ligne de commande  globale pour créer des applications React. Pour en savoir 
+  plus sur les différentes commandes fournies par cette CLI, tapez la commande suivante dans l'invite de commande:
+<< create-react-app --help >>
+
+IV-Générer un projet React à l'aide de create-react-app
+
+* À un emplacement pratique sur votre ordinateur, créez un dossier nommé React.
+  << mkdir react>>
+* et déplacez-vous dans ce dossier
+  << cd react >>
+* Tapez ensuite ce qui suit à l'invite pour créer une nouvelle application React nommée e-portefolio:
+  << create-react-app confusion >>
+* This should create a new folder named confusion within your React folder and create the React application 
+   in that folder.
+* Accédez au dossier e-portefolio en tapant ce qui suit à l'invite:
+  << cd e-portefolio >>
+* demarrer l'application en tapant ce qui suit à l'invite:
+  << yarn start>> ou << npm start >>
+* Cela compilera le projet, puis ouvrira un onglet dans votre navigateur par défaut à l'adresse 
+  http://localhost:3000.
+
+Vous pouvez initialiser votre projet en tant que référentiel Git en tapant les commandes suivantes à l'invite:
+<<git init>>
+<<git add .>>
+<<git commit -m "Initialisation et configuration de react">>>
+
+et ensuite pour pusher sur github, créer une repository nommé react sur votre compte github
+et tapez les commandes suivantes dans l'invite de commande:
+<<git remote add origin url >> avec url le lien de repos sur github pour par exemple url=https://github.com/camara94/react.git
+<<git push -u origin master>>
+apercu
+
+Conclusion
+Dans cette leçon, vous avez installé les outils: node.js, yarn et CLI create-react-app, créé un projet React de base et 
+afficher le projet compilé à votre navigateur et enfin versionner le projet et push sur github bravo !

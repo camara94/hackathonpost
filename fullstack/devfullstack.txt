@@ -1,0 +1,64 @@
+Développement Full Stack: vue d'ensemble:
+Cette leçon vous donne une vue d'ensemble du développement Web Full Stack. 
+Cette partie vous donne un aperçu du développement Web complet. 
+À la fin de cette leçon, vous serez capable de:
+  -Comprendre ce que l'on entend par full stack dans le contexte du développement web
+  -Distinguer le développement Web front-end, back-end et full stack
+  -Comprendre la position de ce cours dans le cadre de développement informatique
+
+1- Front-end et Back-end
+* dévelppement front-end
+Nous parlons du dévelppement front-end lorsque, nous développons des pages webs statiques 
+qui seront générées et affichées du côté du navigateur(client).
+  -1 Les compétences du développeur front-end sont, au minimum :
+      HTML
+      CSS
+      Javascript
+  -2 Il peut aussi se reposer sur les frameworks et librairies suivants :
+     React
+     jQuery
+     Angular
+     Bootstrap
+     Material
+     Foundation
+     Semantic UI
+     Pure…
+La liste est très loin d’être exhaustive. Il existe un grand nombre de bibliothèques et 
+de frameworks (que vous pouvez consulter sur le geekflare)
+(https://geekflare.com/best-css-frameworks/), certains possédant 
+des spécificités qui font leur réputation : légèreté, ergonomie UX, type de projet,… 
+Dans tous les cas, le développement front-end d’une application demandera généralement 
+le choix d’un framework dans sa conception, pour des questions de coûts, de temps.
+
+* dévelppement Back-end
+Le travail du dev back-end est invisible pour l’utilisateur final, mais sans son intervention,
+pas d’application. La partie back-end va construire, développer et mettre en interaction trois 
+piliers essentiels au fonctionnement de l’application :
+   -Le serveur d’hébergement
+   -L’application web
+   -La base de données
+ Pour cela, le développeur back-end va avoir tendance à utiliser les langages :
+    -Java
+    -PHP
+    -Python,
+    ...
+ Pour les mêmes raisons de coûts, rapidités et rentabilités que le développeur front-end, 
+ le dev back-end utilise généralement des frameworks tels que :
+    -Spring Boot,
+    -Symfony,
+    -Djongo,
+     ...
+* Les trois couches applicatives de développement 
+  la couche présentation: qui répresente le développement front-end
+  la couche metier ou logique: qui répresente le développement back-end
+  la couche d'access aux données qui répresente la gestion et persistance des données et
+   gérer les administrateur de base de données, c'est à partir de là que nous parlons 
+  du développement full stack c'est à dire lorsqu'un développeur fait du développement 
+  et maitrise ces trois couches.
+   on l'appelle développeur full stack.
+Liens utils:
+ 1-https://www.laurencegellert.com/2012/08/what-is-a-full-stack-developer/
+ 2-https://edward-designer.com/web/full-stack-web-developer/
+ 3-https://www.andyshora.com/full-stack-developers.html
+ 4-https://en.wikipedia.org/wiki/Multitier_architecture
+ 5-http://www.tonymarston.net/php-mysql/3-tier-architecture.html

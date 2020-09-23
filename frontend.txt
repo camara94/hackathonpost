@@ -1,0 +1,67 @@
+Introduction à React: objectifs et résultats
+
+FRONT-ENT
+
+Dans cette leçon, vous recevrez un aperçu rapide des frameworks et bibliothèques JavaScript, 
+puis je vous présente  React en particulier. 
+Nous allons apprendre quelques bases de React et comment configurer une application React à 
+l'aide de l'outil de ligne de commande <<create-react-app>>. 
+À la fin de cette leçon, vous:
+1-Obtiendrez un aperçu de base des frameworks et bibliothèques JavaScript
+2-Comprendrez l'architecture d'une application React
+3-Créerez une application React de démarrage à l'aide de <<create-react-app>>, 
+l'outil de ligne de commande.
+
+
+I-pourquoi les frameworks / libraires:
+
+1-nous les utilisons pour faciliter la complexité de la gestion de manipulation du DOM et des mises à jour manuelles.
+2-Ils nous permettent de bien définir les architectures de nos applications, c'est bien structurée nos applications en adoptant  MVC ou MVVM,
+3-Ils permettent la réutilisation de code source.
+4-Ils permettent la modularité: par exemple l'utilisation d'autres librairie comme jQuery.
+5-Ils fournissent la généricité c'est à dire vous pouvez adapter le code à vos besoins exemple: React, Angular, Amber, Backbone
+
+II-Difference entre Framework et Librairie 
+
+une Librairie
+- un ensemble de fonctions utiles lors de l'écriture d'applications Web. Votre code est en charge du fonctionnement de votre app et il appelle dans 
+  la bibliothèque quand bon lui semble. Par exemple, React, jQuery.
+frameworks 
+- une implémentation particulière d'une application Web, où votre code remplit les détails. Le framework est en charge et 
+  il appelle votre code lorsqu'il a besoin de quelque chose de spécifique à l'application. Par exemple, angular, durandal, braise, etc.
+
+III- Approches de Programmation
+
+Dans le monde de développement d'application, nous avons deux approches à savoir l'approche de programmation impérative 
+et l'approche Declarative.
+
+1-approche de Programmation Impérative:
+ Dans l'approche de programmation imperative le développeur ou le programmeur de l'application decide clairement et explicitement 
+ comment les actions doivent être menées c'est à dire  comment l'application doit être exécutée. 
+
+2-Approche de Programmation  Declarative: 
+ dans celle-ci le développeur s'occupe tout simplement du besoin de l'application c'est à dire la logique métier 
+ et laisse au framework la manière dont l'application doit être exécutée. 
+
+III-Single-Page Application(SPA)
+
+Une application d'une seule page est une application qui fonctionne dans un navigateur et ne nécessite pas de rechargement de 
+page pendant l'utilisation et cela la rends ultra rapide. Vous utilisez ce type d'applications tous les jours. Ce sont, 
+par exemple: Facebook, Gmail, Google Maps, ou GitHub.
+Les SPA visent à offrir une expérience utilisateur exceptionnelle en essayant d'imiter un environnement «naturel» 
+dans le navigateur - pas de rechargement de page, pas de temps d'attente supplémentaire. 
+C'est juste une page Web que vous visitez qui charge ensuite tous les autres contenus à l'aide de JavaScript 
+- dont ils dépendent fortement.
+
+IV- Framework et Librairie JavaScript
+*React
+*Angular
+*Vue
+*Ember
+*Backbone
+*Aurelia
+*Meteor
+*Polymer
+*Knockout
+*Mercury
+

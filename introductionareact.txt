@@ -1,0 +1,17 @@
+INTROCTUCTION A REACT
+
+I - What is React
+1- Une librairie javascript pour la construction des Interfaces Utilisateur(UI)
+2-Il utilise une approche Declarative en facilitant la creation des interfaces simple et conviviale.
+3-Le développement d'application React est basé sur les composants(Components en anglais)
+4-React utilise Redux, flex, fetch pour les interaction et stockage des données avec les bases de donnée ou API
+5-Il est conçu pour la simplicité, la rapidité et l'adaptabilité qui font de lui est une librairie à succès
+6-les concepts et vocabulaire de React:
+1-One-way data flow
+2-JSX
+3-Components
+4-State
+5-Props
+6-Virtual DOM
+7-Element
+8-Flux/Redux/Fetch

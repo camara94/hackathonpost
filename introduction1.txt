@@ -1,0 +1,20 @@
+Dans cette formation, nous allons développer un site e-fortefolio de A à Z dans 
+la librairie JavaScript ReactJS développé par facebook en 2011,
+la formation couvrira la librarie ReactJS et Redux pour la structuration de nos données
+dans les applications web en react.
+
+
+Prérequis:
+Pour bien assimuler les concepts de cette formation, vous devez avoir une bonne connaissance 
+des langages et frameworks suivants:
+ -HTML5 et CSS3,
+ -le JavaScript en géneral et plus particulièrement Emascript 2015 ou ES 6  ou plus,
+ -nous allons également utiliser Bootstrap 4 pour l'expérience Utilisateur (UX) et 
+  l'Interface Utilisateur(UI) afin de bien présenter votre application.
+ -Nous allons aussi utiliser le git et gitub pour faciliter la gestion de notre code source.
+
+Technologies et concepts aborder dans ce cours:
+ -React,
+ -ReactStrap,
+ -Redux,
+ -Fetch

@@ -1,0 +1,47 @@
+Configuration de votre environnement de développement: Git et Node: 
+
+* objectifs et résultats:
+   À la fin de cette leçon, vous devriez savoir configuré Git et Node.js sur votre ordinateur.
+     -Configurer un référentiel Git et effectuer des opérations Git de base
+     -Configurer et utiliser des référentiels Git en ligne
+     -Utilisez des modules basés sur des nœuds pour effectuer des opérations de base. 
+
+* Configuration de votre environnement de développement
+  Logiciels requis:
+   
+   1-Éditeur de texte de votre choix: tout éditeur de texte que vous connaissez déjà peut 
+     être utilisé pour éditer les fichiers du projet. 
+     J'utiliserai Visual Studio Code (https://code.visualstudio.com/) 
+      comme éditeur de choix dans cette formtion. 
+     Vous pouvez également envisager d'autres éditeurs tels que Brackets (http://brackets.io/), 
+     Sublime Text (http://www.sublimetext.com/) ou encore Atom (https://atom.io/).
+
+    2-Navigateur de votre choix: Vous pouvez utiliser votre navigateur préféré. 
+      J'utiliserai Chrome comme navigateur dans tous les exercices.
+    
+    3-Shell de ligne de commande: la connaissance du shell de ligne de commande sera essentielle 
+      pour les exercices. Sous Windows, une fenêtre cmd ou un Power Shell avec des 
+      privilèges d'administrateur serait nécessaire. Sur un Mac ou sous Linux, une fenêtre de 
+      terminal peut être utilisée. Veuillez vous familiariser avec la commande "sudo" sous OS X 
+      et Linux.
+* Téléchargement et installation de Git
+  -Pour installer Git sur votre ordinateur, accédez à https://git-scm.com/downloads 
+   pour télécharger le programme d'installation de Git pour votre plate-forme spécifique.
+  
+  -Vous pouvez trouver plus de détails sur l'installation de 
+   Git sur https://git-scm.com/book/en/v2/Getting-Started-Installing-Git. 
+   Ce document répertorie plusieurs façons d'installer Git sur différentes plates-formes.s
+
+* Une configuration globale pour Git
+
+  -Ouvrez une fenêtre ou un terminal cmd sur votre ordinateur (en tapant sur la touche window + R) sous windows.
+  -pour vous assurez que git est installer sur votre système tapez:
+     << git --version >> pour voir la version de git
+  -Pour configurer votre nom d'utilisateur à utiliser par Git, tapez la commande suivante:
+    << git config --global user.name "Votre nom" >>
+  -Pour configurer votre messagerie afin qu'elle soit utilisée par Git, tapez la suivante:
+    <<git config --global user.email 'Votre email' >>
+  -Vous pouvez vérifier votre configuration globale Git par défaut, vous pouvez taper la commande:
+    <<git config --list >>
+  -Créer un dossier git-test pour nos test des commandes git avec <<mkdir git-test>>
+  -pour initialiser ce dossier il faut << cd git-gest et git  init >>
